@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>r-devel</id>
+    <title>r-devel (Install)</title>
+    <version>3.2.3.69985</version>
+    <authors>R Core Team</authors>
+    <!--<owners>R Core Team</owners>-->
+    <summary>Current r-devel daily build</summary>
+    <description>Current r-devel daily build</description>
+    <projectUrl>https://cran.r-project.org/</projectUrl>
+    <packageSourceUrl>https://cran.r-project.org/sources.html</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>r-devel admin r-project r cran</tags>
+    <copyright>The R Foundation for Statistical Computing</copyright>
+    <licenseUrl>https://www.r-project.org/Licenses/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/r-devel.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
