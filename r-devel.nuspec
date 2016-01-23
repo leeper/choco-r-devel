@@ -4,7 +4,7 @@
   <metadata>
     <id>r-devel</id>
     <title>r-devel (Install)</title>
-    <version>3.2.3.69985</version>
+    <version>3.3.0</version>
     <authors>R Core Team</authors>
     <!--<owners>R Core Team</owners>-->
     <summary>Current r-devel daily build</summary>
