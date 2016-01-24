@@ -1,6 +1,11 @@
+RDEVELVERSION = $(shell svn info http://svn.r-project.org/R |grep Revision: |cut -c11-)
+
 all: build
 
 build:
+	rm *.nupkg
+	echo $(RDEVELVERSION)
+	sed "s/RDEVELVERSION/$(RDEVELVERSION)/g" r-devel.template > r-devel.nuspec
 	choco pack
 
 install:
