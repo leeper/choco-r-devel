@@ -7,6 +7,7 @@ There is already [a package for the latest release](https://chocolatey.org/packa
 To build the package:
 
 ```
+git pull https://github.com/leeper/choco-r-devel master
 make build
 ```
 

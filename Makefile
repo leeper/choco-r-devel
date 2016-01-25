@@ -3,13 +3,12 @@ RDEVELVERSION = $(shell svn info http://svn.r-project.org/R |grep Revision: |cut
 all: build
 
 build:
-	rm *.nupkg
 	echo $(RDEVELVERSION)
 	sed "s/RDEVELVERSION/$(RDEVELVERSION)/g" r-devel.template > r-devel.nuspec
 	choco pack
 
 install:
-	choco install r-devel -s *.nupkg -f
+	choco install r-devel -s *.nupkg -f -y
 
 push:
 	choco apikey -k %CHOCOLATEY_KEY% -source https://chocolatey.org/
