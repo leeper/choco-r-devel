@@ -8,7 +8,10 @@ build:
 	choco pack
 
 install:
-	choco install r-devel -s *.nupkg -f -y
+	choco install r-devel.0.0.0.$(RDEVELVERSION).nupkg -f -y
+
+upgrade:
+	choco upgrade r-devel.0.0.0.$(RDEVELVERSION).nupkg -f -y
 
 push:
 	choco apikey -k %CHOCOLATEY_KEY% -source https://chocolatey.org/
