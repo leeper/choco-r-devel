@@ -10,7 +10,7 @@
     <summary>Current r-devel daily build</summary>
     <description>Current r-devel daily build</description>
     <projectUrl>https://cran.r-project.org/</projectUrl>
-    <packageSourceUrl>https://cran.r-project.org/sources.html</packageSourceUrl>
+    <packageSourceUrl>https://github.com/leeper/choco-r-devel</packageSourceUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>
