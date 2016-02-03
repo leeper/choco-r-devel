@@ -4,13 +4,13 @@
   <metadata>
     <id>r-devel</id>
     <title>r-devel (Install)</title>
-    <version>0.0.0.70074</version>
+    <version>0.0.0.70078</version>
     <authors>R Core Team</authors>
     <!--<owners>R Core Team</owners>-->
     <summary>Current r-devel daily build</summary>
     <description>Current r-devel daily build</description>
     <projectUrl>https://cran.r-project.org/</projectUrl>
-    <packageSourceUrl>https://github.com/leeper/choco-r-devel</packageSourceUrl>
+    <packageSourceUrl>https://cran.r-project.org/sources.html</packageSourceUrl>
     <!--<projectSourceUrl></projectSourceUrl>
     <docsUrl></docsUrl>
     <mailingListUrl></mailingListUrl>
