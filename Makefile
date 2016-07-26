@@ -1,4 +1,4 @@
-RDEVELVERSION = $(shell svn info http://svn.r-project.org/R |grep Revision: |cut -c11-)
+RDEVELVERSION = $(shell svn info https://svn.r-project.org/R |grep Revision: |cut -c11-)
 
 all: build
 
